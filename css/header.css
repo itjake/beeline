@@ -30,6 +30,7 @@
 
 .header {
     position: relative;
+    background: linear-gradient(130deg, #FF0F52 -20%, rgba(26, 20, 59, 0) 75%);
 }
 
 .header-menu__top::before {
@@ -62,7 +63,7 @@
     color: #CACACA;
 }
 
-.header-menu__right span:last-child {
+.header-menu__right__language span:last-child {
     color: #CACACA;
 }
 
@@ -124,4 +125,82 @@
 .header-menu__left__item__effect a:hover:before {
     opacity: 1;
     transform: scale(1);
+}
+
+.cinema {
+    background: linear-gradient(160deg, #FF0F52 -15%, rgba(26, 20, 59, 0) 38%);
+}
+
+.cinema-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0 100px;
+}
+
+.cinema-title {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.cinema-subtitle {
+    font-size: 19px;
+    line-height: 132%;
+    color: #fff;
+}
+
+.cinema-subtitle__bottom {
+    padding-bottom: 30px;
+}
+
+
+.cinema-button {
+    font-size: 19px;
+    line-height: 130%;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #FF0F52;
+    border-radius: 16px;
+    margin-right: 25px;
+    padding: 23px 44px;
+}
+
+.cinema-left {
+    position: relative;
+}
+
+.cinema-right {
+    /*max-width: 55%;*/
+    position: absolute;
+    top: 20%;
+    left: 23%;
+    width: 70%;
+    height: 70%;
+    background: url(https://beeline.kg/binaries/content/gallery/mainsite/landing-pages/ivi-landing/ivi_banner.png) no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+.cinema-left span {
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 130%;
+    cursor: pointer;
+}
+
+.cinema-left__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cinema-left__info span {
+    padding-right: 10px;
 }
