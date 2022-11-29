@@ -15,10 +15,32 @@
     margin-right: 40px;
 }
 
+.header-menu__left__item__effect {
+    margin-right: 23px;
+}
+
+.header-menu__left__item__logo {
+    margin-right: 23px;
+}
+
 .header-menu__top {
     font-size: 0.875rem;
-    border-bottom: 1px solid rgba(255, 255, 255, .05);
     padding-bottom: 15px;
+}
+
+.header {
+    position: relative;
+}
+
+.header-menu__top::before {
+    position: absolute;
+    content: "";
+    top: 30%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, .05);
+    /*border: 1px solid red;*/
 }
 
 .header-menu__bottom {
@@ -34,6 +56,10 @@
 
 .header-menu__right__language {
     margin-right: 40px;
+}
+
+.header-menu__right a:last-child {
+    color: #CACACA;
 }
 
 .header-menu__right span:last-child {
