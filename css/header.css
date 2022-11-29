@@ -204,3 +204,89 @@
 .cinema-left__info span {
     padding-right: 10px;
 }
+
+.header-burger {
+    width: 40px;
+    height: 28px;
+    display: none;
+    position: relative;
+}
+
+.burger-line {
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+.burger-line__first {
+    top: 0;
+}
+
+.burger-line__second {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.burger-line__third {
+    bottom: 0;
+}
+
+/*Media start*/
+@media screen and (max-width: 1180px) {
+    .header-burger {
+        display: block;
+    }
+
+    .header-content {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: black;
+        z-index: 10;
+        padding: 75px;
+        transform: translateX(100%);
+        transition: .2s all linear;
+    }
+
+    .header-nav__close {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        z-index: 11;
+    }
+
+    .header__menu__active {
+        transform: translateX(0);
+    }
+
+    .header-nav__close__line {
+        display: block;
+        height: 2px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+
+    .header-nav__close__line:first-child {
+        transform: translateY(-50%) rotate(45deg);
+    }
+
+    .header-nav__close__line:last-child {
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
+    .header-menu {
+        /*flex-direction: column;*/
+    }
+}
+
+/*Media end*/
