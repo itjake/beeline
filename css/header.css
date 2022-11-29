@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .header-menu__left__items {
@@ -16,6 +17,8 @@
 
 .header-menu__top {
     font-size: 0.875rem;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    padding-bottom: 15px;
 }
 
 .header-menu__bottom {
@@ -59,4 +62,25 @@
     border: none;
     padding: 10px 24px;
     color: #000;
+}
+
+.header-menu__left__link:hover {
+    color: #F7D145;
+}
+
+.header-menu__right span:last-child:hover {
+    color: #F7D145;
+    cursor: pointer;
+}
+
+.header-menu__right span:first-child:hover {
+    color: #F7D145;
+    cursor: pointer;
+}
+
+.header-menu__left__item__effect a:hover {
+    color: #ffffff;
+    border-bottom: 3px solid #fd0;
+    padding-bottom: 25px;
+    transition: all 0.2s ease-in;
 }
