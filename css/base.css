@@ -6,10 +6,16 @@ html {
     box-sizing: inherit;
 }
 
-div, p, ul, li, a, body {
+body {
     margin: 0;
     padding: 0;
     font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000;
+    background-color: #1A143B;
 }
 
 img {
@@ -20,4 +26,18 @@ img {
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
 }
