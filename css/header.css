@@ -29,18 +29,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    color: #fff;
 }
 
 .header-menu__right__language {
     margin-right: 40px;
 }
 
-.header-menu__right span {
+.header-menu__right span:last-child {
     color: #CACACA;
 }
 
-.header-menu__right span:first-child {
+.header-menu__right span:nth-child(2) {
     color: #909090;
 }
 
@@ -78,9 +78,24 @@
     cursor: pointer;
 }
 
-.header-menu__left__item__effect a:hover {
-    color: #ffffff;
-    border-bottom: 3px solid #fd0;
-    padding-bottom: 25px;
+.header-menu__left__item__effect {
+    position: relative;
+}
+
+.header-menu__left__item__effect a:before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    opacity: 0;
+    transform: scale(0);
+    background: #fd0;
     transition: all 0.2s ease-in;
+}
+
+.header-menu__left__item__effect a:hover:before {
+    opacity: 1;
+    transform: scale(1);
 }
