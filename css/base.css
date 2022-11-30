@@ -1,46 +1,64 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Fira Sans", sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: normal;
-    color: #fff;
-    background-color: #1A143B;
-    /*overflow-x: hidden;*/
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #fff;
+  background-color: #1a143b;
+  /*overflow-x: hidden;*/
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-ul, li, p, h1, h2, h3, h4 {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 button {
-    font-family: "Fira Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container-tariffs {
+  max-width: 778px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }

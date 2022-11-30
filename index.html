@@ -1,190 +1,405 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--header start-->
 
-<!--header start-->
-
-<header class="header">
-    <div class="container">
+    <header class="header">
+      <div class="container">
         <div class="header-mb__content">
-            <div class="header-burger burger">
-                <span class="burger-line burger-line__first"></span>
-                <span class="burger-line burger-line__second"></span>
-                <span class="burger-line burger-line__third"></span>
-            </div>
+          <div class="header-burger burger">
+            <span class="burger-line burger-line__first"></span>
+            <span class="burger-line burger-line__second"></span>
+            <span class="burger-line burger-line__third"></span>
+          </div>
 
-            <div class="header-mb__content__logo">
-                <a href="https://beeline.kg/ru">
-                    <img src="./images/header-logo.svg" alt="header-logo">
-                </a>
-            </div>
-            <div class="header-mb__content__login">
-                <button class="header-mb__login__btn">
-                    Войти
-                </button>
-            </div>
+          <div class="header-mb__content__logo">
+            <a href="https://beeline.kg/ru">
+              <img src="./images/header-logo.svg" alt="header-logo" />
+            </a>
+          </div>
+          <div class="header-mb__content__login">
+            <button class="header-mb__login__btn">Войти</button>
+          </div>
         </div>
 
-
-        <div class="header-close">
-            <div class="header-nav__close">
-                <span class="header-nav__close__line"></span>
-                <span class="header-nav__close__line"></span>
+        <div class="header-close .header-close__active">
+          <div class="header-close__content">
+            <div class="header-close__content__top">
+              <div class="header-close__left">
+                <div class="header-nav__close">
+                  <span class="header-nav__close__line"></span>
+                  <span class="header-nav__close__line"></span>
+                </div>
+              </div>
+              <div class="header-close__right">
+                <span>Рус</span>
+                <span>/</span>
+                <span>Кырг</span>
+              </div>
             </div>
 
+            <div class="header-close__content__mid">
+              <div class="header-close__content__mid__left">Частным лицам</div>
+              <div class="header-close__content__mid__right">Бизнесу</div>
+            </div>
+
+            <div class="header-close__content__bottom">
+              <div class="header-close__content__bottom_search">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="11"
+                    cy="11"
+                    r="8.25"
+                    stroke="#909090"
+                    stroke-width="1.5"
+                  ></circle>
+                  <path
+                    d="M22 22.0002L17.156 17.1562"
+                    stroke="#909090"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  ></path>
+                </svg>
+                <input
+                  type="text"
+                  placeholder="Поиск по сайту"
+                  class="header-close__search"
+                />
+                <img
+                  src="./images//close.svg"
+                  alt="close"
+                  class="header-close__img"
+                />
+              </div>
+              <nav class="header-close__bottom__list">
+                <ul class="header-close__bottom__items">
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/support"> Помощь </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/map"> Карта офисов </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/events/actions">
+                      Акции и новости
+                    </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/phones"> Смартфоны </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/onboarding-main">
+                      Перейти в Beeline
+                    </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/products/tariffs">
+                      Тарифы
+                    </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href=""> Услуги </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/oplata-new"> Пополнение </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/about-us"> О компании </a>
+                  </li>
+                  <li class="header-close__bottom__item">
+                    <a href="https://beeline.kg/ru/oplata-new">
+                      Карьера в Beeline
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
         </div>
 
         <div class="header-content">
-
-            <div class="header-menu header-menu__top">
-                <nav class="header-menu__left">
-                    <ul class="header-menu__left__items">
-                        <li class="header-menu__left__item">
-                            <a href="https://beeline.kg/ru/support" class="header-menu__left__link">
-                                Помощь
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item">
-                            <a href="https://beeline.kg/ru/map" class="header-menu__left__link">
-                                Карта офисов
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item">
-                            <a href="https://beeline.kg/ru/events/actions" class="header-menu__left__link">
-                                Акции и новости
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item">
-                            <a href="https://beeline.kg/ru/phones" class="header-menu__left__link">
-                                Смартфоны
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item">
-                            <a href="https://beeline.kg/ru/onboarding-main" class="header-menu__left__link">
-                                Перейти в Beeline
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header-menu__right">
-                    <div class="header-menu__right__language">
-                        <span>Рус</span>
-                        <span>/</span>
-                        <span>Кырг</span>
-                    </div>
-                    <div class="header-menu__right__business">
-                        <a href="https://beeline.kg/ru">
-                            <span>Частным лицам</span>
-                        </a>
-                        <span>/</span>
-                        <a href="https://beeline.kg/b2b/ru">
-                            <span>Бизнесу</span>
-                        </a>
-                    </div>
-                </div>
+          <div class="header-menu header-menu__top">
+            <nav class="header-menu__left">
+              <ul class="header-menu__left__items">
+                <li class="header-menu__left__item">
+                  <a
+                    href="https://beeline.kg/ru/support"
+                    class="header-menu__left__link"
+                  >
+                    Помощь
+                  </a>
+                </li>
+                <li class="header-menu__left__item">
+                  <a
+                    href="https://beeline.kg/ru/map"
+                    class="header-menu__left__link"
+                  >
+                    Карта офисов
+                  </a>
+                </li>
+                <li class="header-menu__left__item">
+                  <a
+                    href="https://beeline.kg/ru/events/actions"
+                    class="header-menu__left__link"
+                  >
+                    Акции и новости
+                  </a>
+                </li>
+                <li class="header-menu__left__item">
+                  <a
+                    href="https://beeline.kg/ru/phones"
+                    class="header-menu__left__link"
+                  >
+                    Смартфоны
+                  </a>
+                </li>
+                <li class="header-menu__left__item">
+                  <a
+                    href="https://beeline.kg/ru/onboarding-main"
+                    class="header-menu__left__link"
+                  >
+                    Перейти в Beeline
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-menu__right">
+              <div class="header-menu__right__language">
+                <span>Рус</span>
+                <span>/</span>
+                <span>Кырг</span>
+              </div>
+              <div class="header-menu__right__business">
+                <a href="https://beeline.kg/ru">
+                  <span>Частным лицам</span>
+                </a>
+                <span>/</span>
+                <a href="https://beeline.kg/b2b/ru">
+                  <span>Бизнесу</span>
+                </a>
+              </div>
             </div>
-            <div class="header-menu header-menu__bottom">
-                <nav class="header-menu__left">
-                    <ul class="header-menu__left__items">
-                        <li class="header-menu__left__item header-menu__left__item__logo">
-                            <a href="https://beeline.kg/ru/support" class="header-menu__left__link">
-                                <img src="./images/header-logo.svg" alt="header-logo">
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/map" class="header-menu__left__link">
-                                Тарифы
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/events/actions" class="header-menu__left__link">
-                                Услуги
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/phones" class="header-menu__left__link">
-                                Пополнение
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/onboarding-main" class="header-menu__left__link">
-                                О компании
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/onboarding-main" class="header-menu__left__link">
-                                Карьера в Beeline
-                            </a>
-                        </li>
-                        <li class="header-menu__left__item header-menu__left__item__effect">
-                            <a href="https://beeline.kg/ru/onboarding-main" class="header-menu__left__link">
-                                Восстановление номера
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="header-menu__right">
-                    <div class="header-menu__right__search">
-                        <button class="header-menu__right__search__btn">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="11" cy="11" r="8.25" stroke="#121212" stroke-width="1.5"></circle>
-                                <path d="M22 22L17.156 17.156" stroke="#121212" stroke-width="1.5"
-                                      stroke-linecap="round"></path>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="header-menu__right__login">
-                        <button class="header-menu__right__login__btn">
-                            Войти
-                        </button>
-                    </div>
-                </div>
+          </div>
+          <div class="header-menu header-menu__bottom">
+            <nav class="header-menu__left">
+              <ul class="header-menu__left__items">
+                <li
+                  class="header-menu__left__item header-menu__left__item__logo"
+                >
+                  <a
+                    href="https://beeline.kg/ru/support"
+                    class="header-menu__left__link"
+                  >
+                    <img src="./images/header-logo.svg" alt="header-logo" />
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/map"
+                    class="header-menu__left__link"
+                  >
+                    Тарифы
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/events/actions"
+                    class="header-menu__left__link"
+                  >
+                    Услуги
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/phones"
+                    class="header-menu__left__link"
+                  >
+                    Пополнение
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/onboarding-main"
+                    class="header-menu__left__link"
+                  >
+                    О компании
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/onboarding-main"
+                    class="header-menu__left__link"
+                  >
+                    Карьера в Beeline
+                  </a>
+                </li>
+                <li
+                  class="header-menu__left__item header-menu__left__item__effect"
+                >
+                  <a
+                    href="https://beeline.kg/ru/onboarding-main"
+                    class="header-menu__left__link"
+                  >
+                    Восстановление номера
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-menu__right">
+              <div class="header-menu__right__search">
+                <button class="header-menu__right__search__btn">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="8.25"
+                      stroke="#121212"
+                      stroke-width="1.5"
+                    ></circle>
+                    <path
+                      d="M22 22L17.156 17.156"
+                      stroke="#121212"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="header-menu__right__login">
+                <button class="header-menu__right__login__btn">Войти</button>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<!--header end-->
+    <!--header end-->
 
-<!--first page start-->
+    <!--first page start-->
 
-<div class="main">
-    <section class="cinema">
+    <div class="main">
+      <section class="cinema">
         <div class="container">
-            <div class="cinema-content">
-                <div class="cinema-left">
-                    <h3 class="cinema-title">
-                        Онлайн-кинотеатр ИВИ
-                    </h3>
-                    <p class="cinema-subtitle">Более 100 000 фильмов и сериалов</p>
-                    <p class="cinema-subtitle cinema-subtitle__bottom">с бесплатным трафиком на 5-ти устройствах</p>
-                    <div class="cinema-left__info">
-                        <button class="cinema-button">
-                            Бесплатно на 14 дней
-                        </button>
-                        <span>Как подключить?</span> <img src="./images/play.svg" alt="play">
-                    </div>
+          <div class="cinema-content">
+            <div class="cinema-left">
+              <h3 class="cinema-title">Онлайн-кинотеатр ИВИ</h3>
+              <p class="cinema-subtitle">Более 100 000 фильмов и сериалов</p>
+              <p class="cinema-subtitle cinema-subtitle__bottom">
+                с бесплатным трафиком на 5-ти устройствах
+              </p>
+              <div class="cinema-left__info">
+                <div class="check">
+                  <button class="cinema-button">Бесплатно на 14 дней</button>
                 </div>
-                <div class="cinema-right">
-                    <!--                    <img src="./images/ivi-banner.png" alt="ivi-banner">-->
-                </div>
+                <span>Как подключить?</span>
+                <img src="./images/play.svg" alt="play" />
+              </div>
             </div>
+            <img
+              src="./images/ivi-banner.png"
+              alt="ivi-banner"
+              class="cinema-left__banner"
+            />
+          </div>
         </div>
+      </section>
+    </div>
+
+    <!--first page end-->
+
+    <!-- second page start -->
+
+    <section class="tariffs">
+      <div class="container-tariffs">
+        <div class="tariffs-content">
+          <h3 class="tariffs-title">
+            Бесплатная и безлимитная подписка ИВИ навсегда* — в вашем тарифе!
+          </h3>
+          <div class="tariffs-cards">
+            <div class="tariffs-card">
+              <div class="tariff-card__top">
+                <div class="tariffs-card__left">
+                  <div class="tariff-card__left__img">
+                    <img src="./images//ivi-tariff.png" alt="ivi-tariff" />
+                  </div>
+                </div>
+                <div class="tariff-card__right">
+                  <div class="tariff-card__right__title">
+                    Бирге для интернета PRO + ИВИ
+                  </div>
+                  <div class="tariff-card__right__price">
+                    <span>490 с</span>
+                    <span>/</span>
+                    <span>за недели </span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tariff-card__mid">
+                <p>Активируйте ИВИ в Мой Beeline</p>
+                <p>40 Гб интернета</p>
+                <p>15 Гб на <span>и</span>ви</p>
+                <p>40 мин на звонки вне сети</p>
+                <p>
+                  Instagram, WhatsApp, Telegram бесплатный дополнительный трафик
+                </p>
+                <p>Безлимитные звонки и SMS внутри сети</p>
+                <p>8 ГБ на раздачу Wi-Fi</p>
+              </div>
+              <div class="tariff-card__bottom">
+                <div class="tariff-card__bottom__btn">
+                  <button class="tariff-card__bottom__button">
+                    Подключить
+                  </button>
+                </div>
+                <div class="tariff-card__bottom__order">
+                  <a
+                    href="https://beeline.kg/ru/onboarding"
+                    class="tariff-card__bottom__order"
+                  >
+                    заказать SIM-карту
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-</div>
-
-<!--first page end-->
-
-
-<script src="./js/script.js"></script>
-</body>
+    <!-- second page end -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>
