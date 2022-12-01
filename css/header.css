@@ -416,3 +416,47 @@ input.burger-hidden__search_input:focus {
   color: #000000;
   text-decoration: none;
 }
+
+.dot-list {
+  display: none;
+}
+.burger-beeline__list {
+  display: none;
+}
+.burger-beeline__list__two {
+  display: none;
+}
+
+.burger-beeline__list__active {
+  display: block;
+}
+
+.burger-beeline__item {
+  font-size: 15px;
+  margin-top: 18px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  font-weight: normal;
+  display: block;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.burger-beeline__item a {
+  text-decoration: none;
+  color: #000;
+}
+
+.beeline-arrow__active {
+  transform: rotate(90deg);
+}
+.beeline-arrow {
+  transition: all 0.3s ease-in-out;
+}
+.beeline-arrow__two {
+  transition: all 0.3s ease-in-out;
+}
+
+.beeline-dropdown {
+  transition: all 0.3s ease-in-out;
+}

@@ -5,3 +5,18 @@
 @import "tariffs.css";
 @import "application.css";
 @import "footer.css";
+
+@media (max-width: 1200px) {
+  .ivi-banner__container {
+    max-width: none;
+    padding: 130px 15px 110px;
+  }
+}
+
+@media (max-width: 1180px) {
+  .lower-menu__login button {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 17px;
+  }
+}
