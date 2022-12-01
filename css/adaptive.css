@@ -325,3 +325,27 @@ section {
     background-color: orange;
   }
 }
+
+.video {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 20%;
+  max-width: 770px;
+  max-height: 433px;
+  z-index: 9999;
+}
+
+.video-close {
+  position: fixed;
+  top: 17%;
+  left: 77%;
+}
+
+.ivi-banner__img {
+  cursor: pointer;
+}
+
+.video-active {
+  display: block;
+}

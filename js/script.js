@@ -105,3 +105,11 @@
     messageAll.classList.toggle("message-all__active");
   });
 })();
+
+(function () {
+  const connect = document.getElementsById("connect");
+  const video = document.getElementById("video");
+
+  console.log(connect);
+  console.log(video);
+})();
