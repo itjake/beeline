@@ -38,3 +38,29 @@
     arrowTwo.classList.toggle("beeline-arrow__active");
   });
 })();
+
+(function () {
+  const footerTitleFace = document.getElementById(
+    "#footer-list__item__title__face"
+  );
+  const footerTitlebusiness = document.getElementById(
+    "#footer-list__item__title__business"
+  );
+  const footerTitleCompany = document.getElementById(
+    "#footer-list__item__title__company"
+  );
+  const footerTitleSupport = document.getElementById(
+    "#footer-list__item__title__support"
+  );
+  const footerListSupport = document.getElementById("#footer-list__support");
+  const footerListbusiness = document.getElementById("#footer-list__support");
+  const footerListSupport = document.getElementById("#footer-list__support");
+  const footerListSupport = document.getElementById("#footer-list__support");
+  burgerMenu.addEventListener("click", () => {
+    burgerHidden.classList.add("show-burger");
+  });
+  burgerClose.addEventListener("click", () => {
+    console.log("qwerty");
+    burgerHidden.classList.remove("show-burger");
+  });
+})();
