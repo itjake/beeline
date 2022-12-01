@@ -276,6 +276,7 @@ section {
   display: none;
 }
 .burger-beeline__list {
+  transition: all 0.3s ease-in-out;
   display: none;
 }
 .burger-beeline__list__two {
