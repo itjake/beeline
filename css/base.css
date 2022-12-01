@@ -18,7 +18,7 @@ body {
   font-weight: normal;
   color: #fff;
   background-color: #1a143b;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 img {
@@ -48,18 +48,25 @@ button {
   cursor: pointer;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+nav,
+footer,
+header,
+main,
+aside,
+section {
+  display: block;
 }
-.container-tariffs {
-  max-width: 778px;
-  margin: 0 auto;
-  padding: 20px;
+
+input,
+button,
+textarea {
+  font-family: inherit;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+
+img {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
 }
