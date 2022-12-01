@@ -231,3 +231,47 @@
   top: 0;
   left: -20px;
 }
+
+.slider {
+  font-family: sans-serif;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  overflow-x: scroll;
+}
+
+section {
+  border-right: 1px solid white;
+  padding: 1rem;
+  min-width: 100vw;
+  height: 650px;
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 500px;
+  position: relative;
+}
+
+.slider .tariff {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translateY(-50%);
+  color: white;
+  width: 100%;
+  margin: auto;
+  font-size: calc(1rem + 3vw);
+}
+
+.download__apps::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 230px;
+  height: 1px;
+  background: rgba(232, 232, 232, 0.1);
+}
