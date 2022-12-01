@@ -45,6 +45,7 @@ h4 {
 
 button {
   font-family: "Fira Sans", sans-serif;
+  cursor: pointer;
 }
 
 .container {
