@@ -157,6 +157,7 @@
   const modalDescClose = document.getElementById("modal-desc__close");
   const modalDescBack = document.getElementById("modal-desc__back");
   const modalDescLogin = document.getElementById("modal-menu__login");
+  const modalBurgerLogin = document.getElementById("burger-login");
 
   modalDescLogin.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
@@ -165,6 +166,9 @@
   //   modalDesc.classList.toggle("modal-desc__active");
   // });
   modalDescClose.addEventListener("click", () => {
+    modalDesc.classList.toggle("modal-desc__active");
+  });
+  modalBurgerLogin.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
   });
 })();

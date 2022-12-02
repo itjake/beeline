@@ -450,3 +450,10 @@ a.modal-form__link {
 .dot-list {
   padding-top: 20px;
 }
+
+@media screen and (max-width: 425px) {
+  .modal-desc__content {
+    left: -8px;
+    top: 50px;
+  }
+}
