@@ -335,7 +335,6 @@ section {
   position: absolute;
   right: -40px;
   cursor: pointer;
-  z-index: 9999;
 }
 
 .videos {
