@@ -295,3 +295,12 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .social-icons__container {
+    margin-right: 10px;
+  }
+  .social-block__phone-number {
+    margin-left: 0;
+  }
+}
