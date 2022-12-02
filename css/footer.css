@@ -131,7 +131,7 @@
 }
 .lower-block__icons,
 .lower-block__item {
-  align-items: flex-end !important;
+  align-items: flex-end;
   display: flex !important;
 }
 .lower-block__logo {
@@ -151,6 +151,12 @@
 }
 .lower-block__stores {
   margin-left: 193px;
+}
+@media screen and (max-width: 650px) {
+  .lower-block__stores {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
 }
 .lower-stores__googlePlay,
 .lower-stores__iStore {

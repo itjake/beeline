@@ -511,3 +511,25 @@ section {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 650px) {
+  .lower-block__stores {
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .lower-block__icons {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .lower-block__container {
+    justify-content: center;
+    align-items: center;
+  }
+  .lower-block__icons,
+  .lower-block__item {
+    align-items: center !important;
+  }
+}
