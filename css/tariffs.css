@@ -263,3 +263,9 @@
 .tariff__getSim:hover {
   color: #000000;
 }
+
+.ivi-banner__btns a {
+  position: relative;
+  cursor: pointer;
+  z-index: 9999;
+}

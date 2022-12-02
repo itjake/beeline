@@ -122,9 +122,13 @@
 (function () {
   const connect = document.querySelector("#connect");
   const video = document.querySelector("#video");
+  const ivi = document.querySelector("#ivi");
   const videoClose = document.querySelector(".video-close");
 
   connect.addEventListener("click", () => {
+    video.classList.toggle("video-active");
+  });
+  ivi.addEventListener("click", () => {
     video.classList.toggle("video-active");
   });
   videoClose.addEventListener("click", () => {
@@ -135,9 +139,13 @@
 (function () {
   const modalDesc = document.getElementById("modal-desc");
   const modalDescClose = document.getElementById("modal-desc__close");
-  const modalDescBack = document.getElementById("modal-desc__back");
+  // const modalDescBack = document.getElementById("modal-desc__back");
   const modalDescLogin = document.getElementById("modal-menu__login");
   const modalBurgerLogin = document.getElementById("burger-login");
+  const free = document.getElementById("free");
+  const tariffPro = document.getElementById("tariff-pro");
+  const tariffIvi = document.getElementById("tariff-ivi");
+  const tariffService = document.getElementById("tariff-service");
 
   modalDescLogin.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
@@ -149,6 +157,18 @@
     modalDesc.classList.toggle("modal-desc__active");
   });
   modalBurgerLogin.addEventListener("click", () => {
+    modalDesc.classList.toggle("modal-desc__active");
+  });
+  free.addEventListener("click", () => {
+    modalDesc.classList.toggle("modal-desc__active");
+  });
+  tariffPro.addEventListener("click", () => {
+    modalDesc.classList.toggle("modal-desc__active");
+  });
+  tariffIvi.addEventListener("click", () => {
+    modalDesc.classList.toggle("modal-desc__active");
+  });
+  tariffService.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
   });
 })();
