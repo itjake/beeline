@@ -161,9 +161,9 @@
   modalDescLogin.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
   });
-  modalDescBack.addEventListener("click", () => {
-    modalDesc.classList.toggle("modal-desc__active");
-  });
+  // modalDescBack.addEventListener("click", () => {
+  //   modalDesc.classList.toggle("modal-desc__active");
+  // });
   modalDescClose.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
   });
