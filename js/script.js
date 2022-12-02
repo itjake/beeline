@@ -171,6 +171,11 @@
   tariffService.addEventListener("click", () => {
     modalDesc.classList.toggle("modal-desc__active");
   });
+  window.addEventListener("click", (e) => {
+    if (e.target == modalDescBack) {
+      modalDesc.classList.toggle("modal-desc__active");
+    }
+  });
 })();
 
 const modalDescBack = document.getElementById("modal-desc__back");

@@ -505,6 +505,15 @@ input.burger-hidden__search_input:focus {
   cursor: pointer;
 }
 
+.form-group__input_text:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #ffcd00;
+}
+.form-group__input_text {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 @media screen and (max-width: 1300px) {
   .search-hidden {
     left: 4%;

@@ -261,7 +261,6 @@
   transform: translate3d(0, 0, 1px);
   transition: transform 0.3s ease-out;
 }
-
 @media (min-width: 576px) {
   .modal-desc__container {
     min-height: calc(100% - 3.5rem);
@@ -449,6 +448,12 @@ a.modal-form__link {
 
 .dot-list {
   padding-top: 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .ivi-mobile__text::before {
+    left: -10px;
+  }
 }
 
 @media screen and (max-width: 425px) {
