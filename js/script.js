@@ -152,3 +152,6 @@
     modalDesc.classList.toggle("modal-desc__active");
   });
 })();
+
+const modalDescBack = document.getElementById("modal-desc__back");
+console.log(modalDescBack);
