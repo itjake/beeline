@@ -446,3 +446,7 @@ a.modal-form__link {
 .modal-desc__active {
   display: block;
 }
+
+.dot-list {
+  padding-top: 20px;
+}
