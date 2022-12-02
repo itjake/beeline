@@ -310,3 +310,7 @@
     margin-left: 0;
   }
 }
+
+.footer-list__none {
+  display: none;
+}

@@ -132,26 +132,6 @@
   });
 })();
 
-// (function () {
-//   const modalDescClose = document.querySelector(".modal-desc__close");
-//   const modalDescContainer = document.querySelector(".modal-desc__container");
-//   const modalDesc = document.querySelector(".modal-desc");
-//   const modal = document.querySelector(".modal-desc__content");
-//   const modalBack = document.getElementById("modal-desc__back");
-//   const modalLogin = document.querySelector(".lower-menu__login");
-//   modalBack.addEventListener("click", (e) => {
-//     if (e.target === modalBack) {
-//       modalBack.classList.toggle("modal-back__active");
-//       modalDesc.remove();
-//       modal.remove();
-//     }
-//   });
-//   modalLogin.addEventListener("click", () => {
-//     console.log("ola");
-//     modalDesc.classList.toggle("modal-desc__active");
-//   });
-// })();
-
 (function () {
   const modalDesc = document.getElementById("modal-desc");
   const modalDescClose = document.getElementById("modal-desc__close");
