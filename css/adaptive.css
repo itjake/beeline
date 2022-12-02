@@ -532,3 +532,6 @@ section {
     align-items: center !important;
   }
 }
+.ivi-banner__connect {
+  z-index: 50;
+}
