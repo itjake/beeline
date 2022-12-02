@@ -454,3 +454,66 @@ input.burger-hidden__search_input:focus {
 .burger-hidden__header_language button {
   border: none;
 }
+
+.search-hidden {
+  width: 90%;
+  height: 70%;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.search-hidden_show {
+  display: none;
+}
+
+.search-hidden__content {
+  max-width: 696px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.search-hidden__item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.search-hidden__input {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 144%;
+  padding-left: 46px;
+  border: none;
+}
+
+.search-hidden__close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 25px;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .search-hidden {
+    left: 4%;
+    width: 93%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .search-hidden {
+    left: 1%;
+    width: 98%;
+  }
+}

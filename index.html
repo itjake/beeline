@@ -249,9 +249,25 @@
               </div>
               <div class="lower-menu__rightSide">
                 <div class="lower-menu__search">
-                  <a href="#">
+                  <button class="lower-menu__search_show">
                     <img src="./images/icons8-search-25.png" alt="search" />
-                  </a>
+                  </button>
+                  <div class="search-hidden search-hidden_show">
+                    <div class="search-hidden__content">
+                      <button class="search-hidden__item">
+                        <img src="./images/icons8-search-25.png" alt="search" />
+                      </button>
+                      <input
+                        type="text"
+                        autocomplete="false"
+                        placeholder="Поиск по сайту"
+                        class="search-hidden__input"
+                      />
+                      <span class="search-hidden__close">
+                        <img src="./images/burger_close.svg" alt="close" />
+                      </span>
+                    </div>
+                  </div>
                 </div>
                 <div class="lower-menu__login">
                   <button class="lower-menu__btn">Войти</button>

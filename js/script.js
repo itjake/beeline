@@ -107,6 +107,19 @@
 })();
 
 (function () {
+  const searchHidden = document.querySelector(".search-hidden");
+  const searchShowBtn = document.querySelector(".lower-menu__search_show");
+  const searchHiddenClose = document.querySelector(".search-hidden__close");
+  searchShowBtn.addEventListener("click", () => {
+    console.log("qwerty");
+    searchHidden.classList.remove("search-hidden_show");
+  });
+  searchHiddenClose.addEventListener("click", () => {
+    searchHidden.classList.add("search-hidden_show");
+  });
+})();
+
+(function () {
   const connect = document.querySelector("#connect");
   const video = document.querySelector("#video");
   const videoClose = document.querySelector(".video-close");

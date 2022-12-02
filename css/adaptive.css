@@ -406,3 +406,8 @@ section {
     top: 30%;
   }
 }
+
+.lower-menu__search_show {
+  border: none;
+  background: none;
+}
