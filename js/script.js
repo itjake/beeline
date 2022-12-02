@@ -107,9 +107,14 @@
 })();
 
 (function () {
-  const connect = document.getElementsById("connect");
-  const video = document.getElementById("video");
+  const connect = document.querySelector("#connect");
+  const video = document.querySelector("#video");
+  const videoClose = document.querySelector(".video-close");
 
-  console.log(connect);
-  console.log(video);
+  connect.addEventListener("click", () => {
+    video.classList.toggle("video-active");
+  });
+  videoClose.addEventListener("click", () => {
+    video.classList.toggle("video-active");
+  });
 })();
