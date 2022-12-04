@@ -259,12 +259,14 @@
   bottom: 4%;
   right: 2%;
   cursor: pointer;
+  z-index: 99999;
 }
 .whatsapp {
   transition: all 0.3s ease;
   position: fixed;
   bottom: 4%;
   right: 2%;
+  z-index: 99998;
 }
 
 .whatsapp-active {

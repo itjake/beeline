@@ -518,13 +518,21 @@ input.burger-hidden__search_input:focus {
   box-shadow: none;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1330px) {
+  .search-hidden {
+    left: 5%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1307px) {
   .search-hidden {
     left: 4%;
     width: 93%;
   }
 }
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 1280px) {
   .search-hidden {
     left: 1%;
     width: 98%;
